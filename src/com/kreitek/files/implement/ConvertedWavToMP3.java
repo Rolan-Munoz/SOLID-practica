@@ -1,7 +1,9 @@
-package com.kreitek.files;
+package com.kreitek.files.implement;
 
 
 import com.kreitek.files.error.InvalidFileFormatException;
+import com.kreitek.files.interfaces.Converted;
+import com.kreitek.files.interfaces.FileSystemItem;
 
 public class ConvertedWavToMP3 implements Converted {
     private FileSystemItem file;

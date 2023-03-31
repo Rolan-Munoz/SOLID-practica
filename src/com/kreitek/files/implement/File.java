@@ -1,6 +1,8 @@
-package com.kreitek.files;
+package com.kreitek.files.implement;
 
+import com.kreitek.files.asbtrac.FileSystemItemBase;
 import com.kreitek.files.error.InvalidFileFormatException;
+import com.kreitek.files.interfaces.FileSystemItem;
 
 import java.util.List;
 

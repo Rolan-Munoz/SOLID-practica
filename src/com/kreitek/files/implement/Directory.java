@@ -1,5 +1,7 @@
-package com.kreitek.files;
+package com.kreitek.files.implement;
 
+import com.kreitek.files.asbtrac.FileSystemItemBase;
+import com.kreitek.files.interfaces.FileSystemItem;
 import com.kreitek.service.FileManager;
 
 import java.util.ArrayList;

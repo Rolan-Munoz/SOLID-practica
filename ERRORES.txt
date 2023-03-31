@@ -69,3 +69,12 @@ hemos comentado para en un futuro mejorar el codigo y que cumpla con los requisi
 13: Creamos un commit con la modificacion del archivo ERRORES.txt en la cual mencinamos la posible solucion al
 principio de segregacion de interfaces. "doc:update ERRORES.txt solid2"
 
+14: Por ultimo vamos a mencionar un error en la implementacion de inversion de dependencias, en este caso encontramos
+que tanto las interfaces, la clase abstractas y las implementaciones están en el mismo paquete por lo que dependen
+en exceso entre ellas, como solucion crearemos en files tres paquetes, interfaces, abstrac e implements, en la que en
+el primer paquete añadiremos nuestras interfaces, en abstrac nuestra clase abstracta y en implementaciones.
+
+15: Posteriormente se refactoriza el programa para que se implementen dichos cambios.
+
+16: A continuacion volvemos a realizar un nuevo commits para guardar estos cambios "inversion de dependencias: solid3"
+

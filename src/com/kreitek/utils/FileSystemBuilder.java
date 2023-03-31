@@ -1,8 +1,8 @@
 package com.kreitek.utils;
 
-import com.kreitek.files.Directory;
-import com.kreitek.files.File;
-import com.kreitek.files.FileSystemItem;
+import com.kreitek.files.implement.Directory;
+import com.kreitek.files.implement.File;
+import com.kreitek.files.interfaces.FileSystemItem;
 
 public class FileSystemBuilder {
 
