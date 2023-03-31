@@ -54,3 +54,18 @@ Es estas clases donde implementamos los metodos.
 
 9: Tras realizar los cambios y comprobar que el programa se compila y se ejecuta correctamente, procedemos
 a realizar el siguiente commit “responsabilidad única SOLID1”
+
+10: Posterior al commit se descubre un error en la interfaz y volvemos a realizar el commit actualizado
+"update: responsabilidad única SOLID1"
+
+11: En cuanto al principio de segregacion de interfaces, encontramos una interfaz general con bastantes metodos
+los cuales son susceptibles de dividir. En este caso se propone la solucion de crear dos interfaces sobre la interfaz
+general FileSystemIntem, agrupando, por un lado, la interfaz FileActions, para acciones sobre ficheros y la interfaz
+DirectoryActions para las acciones sobre los directorios.
+
+12: En este caso no se ha podido implementar correctamente la solucion, pero dejamos como posible mejora esto que
+hemos comentado para en un futuro mejorar el codigo y que cumpla con los requisitos SOLID.
+
+13: Creamos un commit con la modificacion del archivo ERRORES.txt en la cual mencinamos la posible solucion al
+principio de segregacion de interfaces. "doc:update ERRORES.txt solid2"
+
