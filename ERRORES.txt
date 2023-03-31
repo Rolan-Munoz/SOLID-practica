@@ -9,3 +9,26 @@ código para empezar a trabajar sobre el.
 el archivo ERRORES.txt en la raíz del proyecto. En este archivo iremos recogiendo los errores SOLID, y
 sus posibles soluciones. Una vez que creamos dicho archivo, procedemos a crear el primer
 commit “Initial commit: add ERRORES.txt”
+
+3: A continuacion creamos una nueva rama en git "solid", en la que iremos trabajando las soluciones para una vez
+probada y confirmada, añadirla a la rama principal "main".
+
+4: El siguiente paso que vamos a realizar es la modificación del método getSize(), en el fichero Directory. La finalidad
+es evitar que este método nos lance una excepción, si no que nos devuelva el tamaño total de los ficheros y
+ directorios que contiene.
+
+3: Observando el código en profundidad nos damos cuenta que dentro del paquete service, en la clase FileManager,
+encontramos dos métodos con el nombre calculateSize();  como podemos observar, el segundo de estos métodos no se
+esta usando actualmente, y además podemos ver que hace exactamente lo que se pide para la modificación de getSize(),
+en la clase Directory.
+
+4: Una vez encontrado dicho método en desuso, proseguimos a llamarlo desde el método getSize() la clase Directory
+y añadirlo, quedando el código de la siguiente manera:
+
+                     		@Override
+                     	public int getSize() {
+                       	  return FileManager.calculateSize(listFiles());
+                     	}
+
+5: A continuación, comprobamos que nuestro código compila y se ejecuta correctamente. Una vez comprobado procedemos a
+realizar el segundo commit “getSize update”.
