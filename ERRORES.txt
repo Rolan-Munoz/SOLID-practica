@@ -1,0 +1,11 @@
+EN ESTE ARCHIVO IREMOS EXPLICANDO Y DIAGNOSTICANDO LOS DIFERENTES ERRORES EN LA IMPLEMENTACION
+DE LOS PRINCIPIOS SOLID
+
+
+1º: Se hace un fork del repositorio en github y clonamos a la maquina local. Una vez clonado se abre el editor de
+código para empezar a trabajar sobre el.
+
+2: Antes de empezar con la modificación que se pide y el análisis de los principios SOLID incumplidos, debemos crear
+el archivo ERRORES.txt en la raíz del proyecto. En este archivo iremos recogiendo los errores SOLID, y
+sus posibles soluciones. Una vez que creamos dicho archivo, procedemos a crear el primer
+commit “Initial commit: add ERRORES.txt”
