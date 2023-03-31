@@ -32,4 +32,9 @@ public class ConvertedWavToMP3 implements Converted {
     public FileSystemItem convertMp3ToWav() {
         throw new UnsupportedOperationException("Este conversor no admite la conversión de MP3 a WAV");
     }
+
+    @Override
+    public FileSystemItem convertWavToMP3() {
+        return null;
+    }
 }
