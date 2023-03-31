@@ -32,3 +32,25 @@ y añadirlo, quedando el código de la siguiente manera:
 
 5: A continuación, comprobamos que nuestro código compila y se ejecuta correctamente. Una vez comprobado procedemos a
 realizar el segundo commit “getSize update”.
+
+6: A continuación se procede a observar los principios SOLID que se están incumpliendo; Los principios SOLID son
+los siguientes:
+	1: Principio de responsabilidad única.
+	2: Principio abierto / cerrado.
+	3: Principio de sustitución de Liskov.
+	4: Principio de segregación de interfaces.
+	5: Principio de inversión de dependencias.
+
+7: En cuanto al principio de responsabilidad única observamos que se incumple en los siguientes elementos:
+
+- En la clase File, encontramos una serie de métodos, la mayoría relacionado con la gestión de archivos como por
+ejemplo los métodos read(), open(), close() y otros métodos que se puede considerar realizan una función relacionada.
+Sin embargo, al final del código nos encontramos con dos métodos que no están del
+todo relacionados con los anteriores, estos son : convertWavToMp3() y convertMp3ToWav
+
+8: Tras identificar estos dos métodos se procede a solventarlo, para ello se opta por crear una interfaz Converted
+la cual implementamos en dos clases que vayamos a crear. Estas clases serian ConvertedWavToMp3 y ConvertedMp3ToWav.
+Es estas clases donde implementamos los metodos.
+
+9: Tras realizar los cambios y comprobar que el programa se compila y se ejecuta correctamente, procedemos
+a realizar el siguiente commit “responsabilidad única SOLID1”
