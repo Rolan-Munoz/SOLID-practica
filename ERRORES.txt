@@ -78,3 +78,11 @@ el primer paquete añadiremos nuestras interfaces, en abstrac nuestra clase abst
 
 16: A continuacion volvemos a realizar un nuevo commits para guardar estos cambios "inversion de dependencias: solid3"
 
+17: Cabe destacar que esto no es todo lo que se podria hacer, se podria refactorizar aun mas el codigo diagnosticando
+nuevos problemas, ya que observamos, entre otras cosas, metodos no usados en algunas clases, exceso de excepciones y
+algunos if que pueden ser susceptibles a cambios.
+
+18: Para finalizar hacemos un commit final y hacemos merge entre la rama solid y la main.
+
+19: Por último nos disponemos a subir al repositorio en GitHub el poryecto finalizado.
+
